@@ -25,15 +25,16 @@ namespace UnityChan
 
 		// 以下キャラクターコントローラ用パラメタ
 		// 前進速度
-		public float forwardSpeed = 7.0f;
+		public float forwardSpeed = 10.0f;
 		// 後退速度
-		public float backwardSpeed = 2.0f;
+		public float backwardSpeed = 5.0f;
 		// 旋回速度
-		public float rotateSpeed = 2.0f;
-		// ジャンプ威力
-		public float jumpPower = 3.0f; 
-		// キャラクターコントローラ（カプセルコライダ）の参照
-		private CapsuleCollider col;
+		public float rotateSpeed = 5.0f;
+        // ジャンプ威力
+        public float jumpPower = 20.0f;
+
+        // キャラクターコントローラ（カプセルコライダ）の参照
+        private CapsuleCollider col;
 		private Rigidbody rb;
 		// キャラクターコントローラ（カプセルコライダ）の移動量
 		private Vector3 velocity;
